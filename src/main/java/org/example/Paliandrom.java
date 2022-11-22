@@ -20,8 +20,8 @@ public class Paliandrom {
 
         boolean isPolindrom = true;
 
-        while ( iteratorFor.hasNext() && iteratorBack.hasPrevious() &&
-                iteratorFor.nextIndex() != iteratorBack.previousIndex()) {
+        while ( (iteratorFor.hasNext() && iteratorBack.hasPrevious()) &&
+                (iteratorFor.nextIndex() != iteratorBack.previousIndex())) {
 
             if (iteratorFor.next() != iteratorBack.previous()) {
                 isPolindrom = false;
