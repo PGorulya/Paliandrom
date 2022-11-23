@@ -11,9 +11,9 @@ public class Test {
         System.out.println("Enter the string: ");
         String s = scanner.nextLine();
 
-        Paliandrom p = new Paliandrom();
+        Paliandrom p = new Paliandrom(s);
 
-        if (p.isPaliandrom(s)) System.out.println("This string is paliandrom");
+        if (p.isPaliandrom()) System.out.println("This string is paliandrom");
         else System.out.println("This string isn't paliandrom");
 
     }

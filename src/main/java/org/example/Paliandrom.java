@@ -6,7 +6,13 @@ import java.util.ListIterator;
 
 public class Paliandrom {
 
-    boolean isPaliandrom (String s) {
+    private String s;
+
+    public Paliandrom(String s) {
+        this.s = s;
+    }
+
+    boolean isPaliandrom () {
 
         List<Character> list = new LinkedList<>();
 
